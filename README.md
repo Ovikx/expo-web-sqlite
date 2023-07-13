@@ -10,7 +10,7 @@
 # Info
 This package is an effort to provide a truly stable version of [`expo-sqlite`](https://www.npmjs.com/package/expo-sqlite) for Expo SDK 49. This package does not sacrifice older stable features for new experimental ones. Note that the utility of this package depends on how the experimental Promise-based API fares in `expo-sqlite`. The hope is that I can deprecate this package once said API becomes stable.
 
-# Everything below this point is documentation from [`expo-sqlite`](https://www.npmjs.com/package/expo-sqlite)
+# Everything below this point is documentation from [`expo-sqlite`](https://www.npmjs.com/package/expo-sqlite) (except for installation instructions)
 
 # Overview
 Provides access to a database that can be queried through a WebSQL-like API (https://www.w3.org/TR/webdatabase/). The database is persisted across restarts of your app.
@@ -31,7 +31,7 @@ For bare React Native projects, you must ensure that you have [installed and con
 ### Add the package to your npm dependencies
 
 ```
-npx expo install expo-sqlite
+npx expo install expo-web-sqlite
 ```
 
 ### Configure for iOS
