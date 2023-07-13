@@ -1,0 +1,44 @@
+{
+  "name": "expo-web-sqlite",
+  "version": "1.0.3",
+  "description": "Basically the same as `expo-sqlite` but `WebSQLDatabase` isn't deprecated in favor of the experimental, silent-erroring SQLiteDatabase. Provides access to a database that can be queried through a WebSQL-like API (https://www.w3.org/TR/webdatabase/). The database is persisted across restarts of your app.",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "sideEffects": false,
+  "scripts": {},
+  "keywords": [
+    "react-native",
+    "expo",
+    "sqlite",
+    "websql",
+    "sql"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/expo/expo.git",
+    "directory": "packages/expo-sqlite"
+  },
+  "bugs": {
+    "url": "https://github.com/expo/expo/issues"
+  },
+  "author": "650 Industries, Inc.",
+  "license": "MIT",
+  "homepage": "https://docs.expo.dev/versions/latest/sdk/sqlite/",
+  "jest": {
+    "preset": "expo-module-scripts"
+  },
+  "dependencies": {
+    "@expo/websql": "^1.0.1",
+    "expo": "*"
+  },
+  "devDependencies": {
+    "expo-module-scripts": "^3.0.0"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react-native": "*"
+  },
+  "resolutions": {
+    "react-native": "0.72.3"
+  }
+}
