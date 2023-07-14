@@ -1,12 +1,3 @@
-<p>
-  <a href="https://docs.expo.dev/versions/latest/sdk/sqlite/">
-    <img
-      src="../../.github/resources/expo-sqlite.svg"
-      alt="expo-sqlite"
-      height="64" />
-  </a>
-</p>
-
 # Info
 This package is an effort to provide a truly stable version of [`expo-sqlite`](https://www.npmjs.com/package/expo-sqlite) for Expo SDK 49. This package does not sacrifice older stable features for new experimental ones. Note that the utility of this package depends on how the experimental Promise-based API fares in `expo-sqlite`. The hope is that I can deprecate this package once said API becomes stable.
 
