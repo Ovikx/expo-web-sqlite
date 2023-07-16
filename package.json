@@ -1,6 +1,6 @@
 {
   "name": "expo-web-sqlite",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Basically the same as `expo-sqlite` but `WebSQLDatabase` isn't deprecated in favor of the experimental, silent-erroring SQLiteDatabase. Provides access to a database that can be queried through a WebSQL-like API (https://www.w3.org/TR/webdatabase/). The database is persisted across restarts of your app.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
