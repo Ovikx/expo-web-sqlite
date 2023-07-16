@@ -28,13 +28,12 @@
   },
   "dependencies": {
     "@expo/websql": "^1.0.1",
-    "expo": "*"
+    "expo-modules-core": "^1.5.7"
   },
   "devDependencies": {
     "expo-module-scripts": "^3.0.0"
   },
   "peerDependencies": {
-    "expo": "*",
     "react-native": "*"
   },
   "resolutions": {
